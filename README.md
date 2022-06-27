@@ -6,12 +6,12 @@
 
 This repository contains a complete analysis of a financial dataset and the benchmark of different outliers detection algorithm !
 
-This project is about **Machine Learning and Cybersecurity**, we perform here the analysis of a large attacked netflow and the training of several machine learning algorithm, supervised and unsupervised, to compare them.
+This project is about **Machine Learning and Cybersecurity**.
 
 ## Dataset
 
-The dataset is not in the repository. It is the [UGR'16 dataset](https://nesg.ugr.es/nesg-ugr16/index.php) : A New Dataset for the Evaluation of
-Cyclostationarity-Based Network IDSs.
+The dataset is not in the repository. It is the [IEEE CIS Fraud Detection contest 2019](https://www.kaggle.com/c/ieee-fraud-detection/data) : the dataset entails user information as well as transaction information, linked together with a
+TransactionID.
 
 The dataset is built with **real traffic** and **up-to-date attacks**. These data come from several netflow v9 collectors strategically located in the network of a spanish ISP. It is composed of two differentiated sets of data that are previously split in weeks.
 
