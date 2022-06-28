@@ -10,16 +10,16 @@ This project is about **Machine Learning and Cybersecurity**.
 
 ## Dataset
 
-The dataset is not in the repository. It is the [IEEE CIS Fraud Detection contest 2019](https://www.kaggle.com/c/ieee-fraud-detection/data) : the dataset entails user information as well as transaction information, linked together with a
-TransactionID.
+The dataset is not in the repository. It is the [IEEE CIS Fraud Detection contest 2019](https://www.kaggle.com/c/ieee-fraud-detection/data) : the dataset entails user information as well as transaction information, linked together with a TransactionID.
 
-The dataset is built with **real traffic** and **up-to-date attacks**. These data come from several netflow v9 collectors strategically located in the network of a spanish ISP. It is composed of two differentiated sets of data that are previously split in weeks.
-
-A precise analysis of the dataset is available on [this](https://nesg.ugr.es/nesg-ugr16/dataset_AuthorVersionFinal.pdf) paper.
+The objective of this notebook is twofold:
+• Deploy data analysis for fraud **detection** in a highly incomplete dataset
+• Perform **anomaly detection** using **IsolationForest** and **Local Outlier Factor (LOF)** algorithm
+and evaluate their complementarity for *unsupervised* anomaly detection
 
 ## Analysis
 
-The analysis is made with python on the `MLSECU_SG_AL_VS.ipynb` notebook. We are going through the whole analysis process, with the **dataset exploration**, the **cleaning**, the **feature engineering**, **statistical analysis**, **visualization** and finally the **machine learning** part.
+The analysis is made with python on the `Secu&IA - Lab session 1 – anomaly detection.ipynb` notebook. We are going through the whole analysis process, with the **dataset exploration**, the **cleaning**, the **feature engineering**, **statistical analysis**, **visualization** and finally the **machine learning** part.
 
 ## Results
 
