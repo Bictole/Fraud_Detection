@@ -23,8 +23,4 @@ The analysis is made with python on the `Secu&IA - Lab session 1 – anomaly det
 
 ## Results
 
-To compare our **supervised** classification model algorithms, we compared their f1_score to see which fit the data. We observed that the tree-based models, in particular the **RandomForest**, are those that obtains the best results.
-
-<img src="https://github.com/Bictole/MLSECU/blob/master/bench.png" alt="Benchmarks_Results">
-
-We also tested **XGBoost**, its results are excellent, with more than 94% of F1_score obtained for a test dataset with 1000 anomalies out of 10 000 network exchanges.
+The results are not great, and we can deduce multiple reason. The main one would be that we don't have enough data for this kind of algorithms. The **unsupervised** algorithm are not stable to perform well between each other. But we still find a **correlation** between fraud and outliers, so there is something to get from this implementation.
